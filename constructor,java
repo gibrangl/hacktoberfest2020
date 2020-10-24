@@ -1,0 +1,20 @@
+public class Constructor {
+    public String a;
+    public String b;
+    public string c;
+    
+    public Constructor(){
+        a="ayam";
+        b="bawang";
+        c=”cicak”;
+    }
+    public Constructor(String nama){
+        this.nama=nama;
+        jawaban="Benar";
+    }
+public static void main(String args[]){
+        Constructor nama1 = new Constructor();
+        Constructor nama2 = new Constructor();
+        System.out.println("Nama :"+nama1.a);
+        System.out.println("Jawaban :"+nama2.b);}
+        }
